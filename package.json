@@ -1,0 +1,33 @@
+{
+  "name": "lpm",
+  "version": "0.0.1",
+  "author": "Henrique Matias <hems.inlet+npm@gmail.com>",
+  "contributors": ["Anderson Arboleya <anderson@arboleya.me>"],
+  "description": "Simple script to install max4live devices, aims to be a package manager sort of npm thing",
+  "keywords": ["ableton", "live", "max4live", "javascript", "package", "manager"],
+
+  "directories": {
+      "bin": "./bin/"
+  },
+  "scripts": {},
+
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/hems/lpm"
+  },
+
+  "bin": {
+    "lpm": "./bin/lpm",
+    "_snapped_coffee": "./node_modules/coffee-script/bin/coffee"
+  },
+  "engines": {"node" : ">= 0.8.x"},
+  
+  "dependencies"   : {
+    "fs-util"       : "0.3.4"   ,
+    "coffee-script" : "1.4.0"   ,
+    "unzip"         : ">= 0.1.4",
+    "colors"        : "0.6.x"   ,
+    "commander"     : "1.1.1"   ,
+    "fstream"       : "0.1.22" 
+  }
+}
