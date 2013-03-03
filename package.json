@@ -1,6 +1,6 @@
 {
   "name": "lpm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Henrique Matias <hems.inlet+npm@gmail.com>",
   "contributors": ["Anderson Arboleya <anderson@arboleya.me>"],
   "description": "Simple script to install max4live devices, aims to be a package manager sort of npm thing",
