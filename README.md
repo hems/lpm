@@ -35,8 +35,11 @@ npm install -g lpm
 
 ````bash
 lpm midi       [/path/to/a/zip/file]
+# download and unzip the file into your Max for live midi folder
 lpm instrument [/path/to/a/zip/file]
+# download and unzip the file into your Max for live instrument folder
 lpm effect     [/path/to/a/zip/file]
+# download and unzip the file into your Max for live audio effects folder
 ````
 
 <a name="todo" />
