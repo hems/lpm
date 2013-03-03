@@ -31,9 +31,11 @@ npm install -g lpm
 <a name="usage" />
 ## Usage
 
-`lpm midi       [/path/to/a/zip/file]`
-`lpm instrument [/path/to/a/zip/file]`
-`lpm effect     [/path/to/a/zip/file]`
+````bash
+lpm midi       [/path/to/a/zip/file]
+lpm instrument [/path/to/a/zip/file]
+lpm effect     [/path/to/a/zip/file]
+````
 
 <a name="todo" />
 ### TODO
