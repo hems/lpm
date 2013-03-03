@@ -1,0 +1,122 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.1.69
+3 info using node@v0.8.16
+4 verbose publish [ '.' ]
+5 verbose read json /Users/hems/git/node/lpm/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/hems/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/tmp.tgz
+14 verbose folder .
+15 info prepublish lpm@0.0.1
+16 silly lockFile abc46889-199-0-058413274586200714-tmp-tgz /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/tmp.tgz
+17 verbose lock /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/tmp.tgz /Users/hems/.npm/abc46889-199-0-058413274586200714-tmp-tgz.lock
+18 silly lockFile abc46889-199-0-058413274586200714-tmp-tgz /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/tmp.tgz
+19 verbose tar unpack /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/tmp.tgz
+20 silly lockFile 1aa43667-199-0-058413274586200714-package /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/package
+21 verbose lock /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/package /Users/hems/.npm/1aa43667-199-0-058413274586200714-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry .npmignore
+25 silly gunzTarPerm extractEntry README.md
+26 silly gunzTarPerm extractEntry bin/lpm
+27 silly gunzTarPerm extractEntry build/bumper.coffee
+28 silly gunzTarPerm extractEntry example/minimun-note-length-master.zip
+29 silly gunzTarPerm extractEntry makefile
+30 silly gunzTarPerm extractEntry src/install.coffee
+31 silly gunzTarPerm extractEntry src/lpm.coffee
+32 verbose read json /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/package/package.json
+33 silly lockFile 1aa43667-199-0-058413274586200714-package /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/package
+34 verbose from cache /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/package/package.json
+35 verbose tar pack [ '/Users/hems/.npm/lpm/0.0.1/package.tgz',
+35 verbose tar pack   '/var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/package' ]
+36 verbose tarball /Users/hems/.npm/lpm/0.0.1/package.tgz
+37 verbose folder /var/folders/mf/v7b7jjrs0jlcp1nx46wtyq740000gn/T/npm-16638/1362291896199-0.058413274586200714/package
+38 silly lockFile defa5eb0-s-hems-npm-lpm-0-0-1-package-tgz /Users/hems/.npm/lpm/0.0.1/package.tgz
+39 verbose lock /Users/hems/.npm/lpm/0.0.1/package.tgz /Users/hems/.npm/defa5eb0-s-hems-npm-lpm-0-0-1-package-tgz.lock
+40 silly lockFile defa5eb0-s-hems-npm-lpm-0-0-1-package-tgz /Users/hems/.npm/lpm/0.0.1/package.tgz
+41 silly lockFile 3c77cdd6-Users-hems-npm-lpm-0-0-1-package /Users/hems/.npm/lpm/0.0.1/package
+42 verbose lock /Users/hems/.npm/lpm/0.0.1/package /Users/hems/.npm/3c77cdd6-Users-hems-npm-lpm-0-0-1-package.lock
+43 silly lockFile 3c77cdd6-Users-hems-npm-lpm-0-0-1-package /Users/hems/.npm/lpm/0.0.1/package
+44 verbose tar unpack /Users/hems/.npm/lpm/0.0.1/package.tgz
+45 silly lockFile 3c77cdd6-Users-hems-npm-lpm-0-0-1-package /Users/hems/.npm/lpm/0.0.1/package
+46 verbose lock /Users/hems/.npm/lpm/0.0.1/package /Users/hems/.npm/3c77cdd6-Users-hems-npm-lpm-0-0-1-package.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry .npmignore
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm extractEntry bin/lpm
+52 silly gunzTarPerm extractEntry build/bumper.coffee
+53 silly gunzTarPerm extractEntry example/minimun-note-length-master.zip
+54 silly gunzTarPerm extractEntry makefile
+55 silly gunzTarPerm extractEntry src/install.coffee
+56 silly gunzTarPerm extractEntry src/lpm.coffee
+57 verbose read json /Users/hems/.npm/lpm/0.0.1/package/package.json
+58 silly lockFile 3c77cdd6-Users-hems-npm-lpm-0-0-1-package /Users/hems/.npm/lpm/0.0.1/package
+59 silly shasum updated bytes 22089
+60 info shasum 6a88bce7a68dd1cddd996c1b40f306a56a06cb78
+60 info shasum /Users/hems/.npm/lpm/0.0.1/package.tgz
+61 verbose from cache /Users/hems/.npm/lpm/0.0.1/package/package.json
+62 verbose chmod /Users/hems/.npm/lpm/0.0.1/package.tgz 644
+63 verbose chown /Users/hems/.npm/lpm/0.0.1/package.tgz [ 501, 20 ]
+64 silly lockFile 3a52ce78- .
+65 silly publish { name: 'lpm',
+65 silly publish   version: '0.0.1',
+65 silly publish   author: { name: 'Henrique Matias', email: 'hems.inlet+npm@gmail.com' },
+65 silly publish   contributors: [ { name: 'Anderson Arboleya', email: 'anderson@arboleya.me' } ],
+65 silly publish   description: 'Simple script to install max4live devices, aims to be a package manager sort of npm thing',
+65 silly publish   keywords:
+65 silly publish    [ 'ableton',
+65 silly publish      'live',
+65 silly publish      'max4live',
+65 silly publish      'javascript',
+65 silly publish      'package',
+65 silly publish      'manager' ],
+65 silly publish   directories: { bin: './bin/' },
+65 silly publish   scripts: {},
+65 silly publish   repository: { type: 'git', url: 'http://github.com/hems/lpm' },
+65 silly publish   bin:
+65 silly publish    { lpm: './bin/lpm',
+65 silly publish      _snapped_coffee: './node_modules/coffee-script/bin/coffee' },
+65 silly publish   engines: { node: '>= 0.8.x' },
+65 silly publish   dependencies:
+65 silly publish    { 'fs-util': '0.3.4',
+65 silly publish      'coffee-script': '1.4.0',
+65 silly publish      unzip: '>= 0.1.4',
+65 silly publish      colors: '0.6.x',
+65 silly publish      commander: '1.1.1',
+65 silly publish      fstream: '0.1.22',
+65 silly publish      wget: '0.0.1' },
+65 silly publish   readme: '# lpm\n\nSimple max4live install script\n\n# About\n\nlpm is very inspired by npm, the node management system which is inspired by \nmany other cool package managers.\n\n# Issues\n\nDo not hesitate to open a feature request or a bug report.\n> https://github.com/hems/lpm/issues\n\n# Docs\n  - [Installing](#installing)\n  - [Usage](#usage)\n  - [TODO](#todo)\n  - [Next Steps](#next-steps)\n  - [Contributing](#contributing)\n\nHave fun. :)\n\n<a name="installing" />\n## Installing\n\n````bash\nnpm install -g lpm\n````\n\n<a name="usage" />\n## Usage\n\n````bash\nlpm midi       [/path/to/a/zip/file]\nlpm instrument [/path/to/a/zip/file]\nlpm effect     [/path/to/a/zip/file]\n````\n\n<a name="todo" />\n### TODO\n\n- figure out a more compatible http download lib for node, at the moment when downloading a zip from github it will fail due to the 302 message error. started using wget but still no luck\n\n- windows version\n\t- perhaps just adjust some paths on install.coffee will do the job\n\n\nShould be simple and would be great if someone could contribute with that.\n\n<a name="next-steps" />\n### Next Steps\n\nThe next steps will depend on feedback and real life usage.\n\nEveryone is more than welcome to suggest improvements to this system.\n\nBy the way,the initial idea was :\n\n\t- fork npm repository\n\t\t-> add "device-type" property on package.json [midi|audio|effect]\n\t\t-> add \'device-file\' property to package.json\n\t\t-> publish the max4live device as npm module\n\t\t-> add couple of extra command line options, i.e.:\n\t\t\t- npm install midi /path/to/package\n\t\t\t- npm install audio /path/to/package\n\t\t\t- npm install efx /path/to/package\n\t\t-> call it "lpm"\n\nBut... lets keep it simple and grow step by step ( :\n\n<a name="contributing"/>\n## Contributing\n\nDownload the repo and have fun, pull requests are more than welcome.\n\n````bash\n  git clone git://github.com/hems/lpm.git\n  cd lpm\n  npm link\n````\n\n# Powered by\n - [Node.js](http://nodejs.org/)\n - [CoffeeScript](https://github.com/jashkenas/coffee-script)\n - And other cool stuff, have a look at package.json file',
+65 silly publish   readmeFilename: 'README.md',
+65 silly publish   _id: 'lpm@0.0.1',
+65 silly publish   dist: { shasum: '6a88bce7a68dd1cddd996c1b40f306a56a06cb78' } }
+66 verbose url raw lpm
+67 verbose url resolving [ 'https://registry.npmjs.org/', './lpm' ]
+68 verbose url resolved https://registry.npmjs.org/lpm
+69 info trying registry request attempt 1 at 06:24:56
+70 http PUT https://registry.npmjs.org/lpm
+71 http 409 https://registry.npmjs.org/lpm
+72 verbose url raw lpm
+73 verbose url resolving [ 'https://registry.npmjs.org/', './lpm' ]
+74 verbose url resolved https://registry.npmjs.org/lpm
+75 info trying registry request attempt 1 at 06:24:57
+76 http GET https://registry.npmjs.org/lpm
+77 http 200 https://registry.npmjs.org/lpm
+78 error publish fail Cannot publish over existing version.
+78 error publish fail Bump the 'version' field, set the --force flag, or
+78 error publish fail     npm unpublish 'lpm@0.0.1'
+78 error publish fail and try again
+79 error System Darwin 11.4.2
+80 error command "node" "/usr/local/bin/npm" "publish"
+81 error cwd /Users/hems/git/node/lpm
+82 error node -v v0.8.16
+83 error npm -v 1.1.69
+84 error code EPUBLISHCONFLICT
+85 verbose exit [ 1, true ]
