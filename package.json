@@ -28,6 +28,7 @@
     "unzip"         : ">= 0.1.4",
     "colors"        : "0.6.x"   ,
     "commander"     : "1.1.1"   ,
-    "fstream"       : "0.1.22" 
+    "fstream"       : "0.1.22"  ,
+    "wget"          : "0.0.1"
   }
 }

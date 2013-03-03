@@ -40,7 +40,7 @@ lpm effect     [/path/to/a/zip/file]
 <a name="todo" />
 ### TODO
 
-- figure out http download with node, so far just accept local paths for zip files
+- figure out a more compatible http download lib for node, at the moment when downloading a zip from github it will fail due to the 302 message error. started using wget but still no luck
 
 - windows version
 	- perhaps just adjust some paths on install.coffee will do the job

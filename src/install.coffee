@@ -5,6 +5,8 @@ unzip = require "unzip"
 http    = require 'http'
 fstream = require 'fstream'
 
+wget    = require 'wget'
+
 ###
 	Download / unzip / extract / copy to ableton folder
 ###
@@ -30,6 +32,26 @@ module.exports = class Install
 
 			output = home_dir + '/Library/Application Support/Ableton/Library/Presets'
 
+
+
+		# src    = path;
+		# output = '/example/device.zip';
+
+		# download = wget.download src, output
+
+		# download.on "error", (err) ->
+		#   console.log err
+
+		# download.on "end", (output) ->
+		#   console.log output
+
+		# download.on "progress", (progress) ->
+		# 	console.log "progress: #{progress}"
+
+		# return;
+
+		# code to show progress bar
+
 		switch type
 			when 'midi'
 				output = output + '/MIDI Effects/Max MIDI Effect/'
@@ -40,14 +62,15 @@ module.exports = class Install
 			when 'instrument'
 				output = output + '/Instruments/Max Instrument/'
 
+
 		readStream  = fs.createReadStream path
 		writeStream = fstream.Writer output
 
 		readStream
 			.pipe( unzip.Parse() )
 			.pipe( writeStream )
-			.on( 'close', @after_download )
+			.on( 'close', @after_uncompress )
 
-	after_download: =>
+	after_uncompress: =>
 
 			console.log " OK - Installed succesfully.".bold.green
