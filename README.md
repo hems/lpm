@@ -1,6 +1,8 @@
 # lpm
 
-Simple max4live install script
+Live package manager.. cof.. cof...
+
+Actually, just a simple max4live install script
 
 # About
 
