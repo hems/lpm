@@ -2,7 +2,7 @@
 
 Live package manager.. cof.. cof...
 
-Actually, just a simple max4live install script
+Actually just a simple command line tool to install max4live devices out of zip files.
 
 # About
 
@@ -45,9 +45,13 @@ lpm effect     [/path/to/a/zip/file]
 <a name="todo" />
 ### TODO
 
-- figure out a more compatible http download lib for node, at the moment when downloading a zip from github it will fail due to the 302 message error. started using wget but still no luck
+- Add commands to install AU and VSTs
 
-- windows version
+- Find out a better way to download zip files from web: at the moment when downloading a zip from github it will fail due to the 302 message error.
+
+- Add a simple database to store data, so the user would able to install / uninstall / disable installed plugins
+
+- Fix windows version
 	- perhaps just adjust some paths on install.coffee will do the job
 
 
