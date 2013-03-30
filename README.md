@@ -60,23 +60,9 @@ Should be simple and would be great if someone could contribute with that.
 <a name="next-steps" />
 ### Next Steps
 
-The next steps will depend on feedback and real life usage.
+Having a centralized repository, or list of packages.
 
-Everyone is more than welcome to suggest improvements to this system.
-
-By the way,the initial idea was :
-
-	- fork npm repository
-		-> add "device-type" property on package.json [midi|audio|effect]
-		-> add 'device-file' property to package.json
-		-> publish the max4live device as npm module
-		-> add couple of extra command line options, i.e.:
-			- npm install midi /path/to/package
-			- npm install audio /path/to/package
-			- npm install efx /path/to/package
-		-> call it "lpm"
-
-But... lets keep it simple and grow step by step ( :
+Agree on some configuration file, i.e. yaml or json file to specify package version, author among other basic information
 
 <a name="contributing"/>
 ## Contributing
