@@ -26,6 +26,8 @@ Have fun. :)
 <a name="installing" />
 ## Installing
 
+First you need [Node.js](http://nodejs.org/) then:
+
 ````bash
 npm install -g lpm
 ````
